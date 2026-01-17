@@ -1,56 +1,57 @@
-{
-  "id": 1,
-  "nome": "João Silva",
-  "account": {
-    "id": 11,
-    "number": "98765-4",
-    "agency": "0001",
-    "balance": 1800.50,
-    "limit": 1500.00
+json para testes
+[
+  {
+    "id": 1,
+    "name": "Pedro Silva",
+    "account": {
+      "id": 11,
+      "number": "12345-7",
+      "agency": "0002",
+      "balance": 2500.75,
+      "limit": 1000.0
+    },
+    "card": {
+      "id": 91,
+      "number": "**** **** **** 1111",
+      "limit": 5000.0
+    },
+    "features": [],
+    "news": []
   },
-  "card": {
-    "id": 101,
-    "number": "**** **** **** 1234",
-    "limit": 4000.00
+  {
+    "id": 2,
+    "name": "Maria Oliveira",
+    "account": {
+      "id": 12,
+      "number": "22345-8",
+      "agency": "0003",
+      "balance": 4200.50,
+      "limit": 1500.0
+    },
+    "card": {
+      "id": 92,
+      "number": "**** **** **** 2222",
+      "limit": 8000.0
+    },
+    "features": [],
+    "news": []
   },
-  "features": [],
-  "news": []
-}
-
-{
-  "id": 2,
-  "nome": "Maria Oliveira",
-  "account": {
-    "id": 12,
-    "number": "45678-9",
-    "agency": "0002",
-    "balance": 320.00,
-    "limit": 800.00
-  },
-  "card": {
-    "id": 102,
-    "number": "**** **** **** 5678",
-    "limit": 2500.00
-  },
-  "features": [],
-  "news": []
-}
-
-{
-  "id": 3,
-  "nome": "Carlos Pereira",
-  "account": {
-    "id": 13,
-    "number": "11223-4",
-    "agency": "0003",
-    "balance": 5400.90,
-    "limit": 3000.00
-  },
-  "card": {
-    "id": 103,
-    "number": "**** **** **** 9012",
-    "limit": 7000.00
-  },
-  "features": [],
-  "news": []
-}
+  {
+    "id": 3,
+    "name": "João Costa",
+    "account": {
+      "id": 13,
+      "number": "32345-9",
+      "agency": "0004",
+      "balance": 1800.00,
+      "limit": 500.0
+    },
+    "card": {
+      "id": 93,
+      "number": "**** **** **** 3333",
+      "limit": 3000.0
+    },
+    "features": [],
+    "news": []
+  }
+]
